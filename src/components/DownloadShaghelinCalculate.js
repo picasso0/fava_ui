@@ -43,8 +43,8 @@ function DownloadCsvButton({ id }) {
   };
 
   return (
-    <button onClick={handleDownload}>
-      Download CSV
+    <button className="btn btn-success" onClick={handleDownload}>
+     <i className="fa fa-download" aria-hidden="true"></i> Download CSV
     </button>
   );
 }

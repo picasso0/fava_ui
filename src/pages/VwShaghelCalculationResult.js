@@ -63,8 +63,8 @@ function VwShaghelCalculationResult() {
 
   return (
     <div>
+      <DownloadCsvButton className="w-100 right" id={id} />
       <div className="d-flex text-muted">
-      <DownloadCsvButton id={id} />
         <table className="table table-striped table-bordered">
           <thead>
             <tr>
